@@ -1,0 +1,41 @@
+/* header style */
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#fff;
+    border:none;
+    border-bottom:2px solid #ccc;
+}
+
+.headerContainer{
+    width:960px;
+    margin:0px auto;
+}
+
+.headerName{
+    float:left;
+    left:0;
+    background:#4aaaa5;
+    color:#fff;
+    padding:10px 30px;
+}
+
+.headerName h1{
+    text-align:center;
+}
+
+.navLinks{
+    float:right;
+    display:table;
+    padding:30px;
+}
+
+.navLinks a{
+    text-decoration:none;
+    color:#777;
+    padding:0px 20px;
+}
+
+/* index style */
