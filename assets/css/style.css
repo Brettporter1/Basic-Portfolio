@@ -1,5 +1,7 @@
-body{
+*{
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+body{
     background:#eee;
     margin:0px;
 }
@@ -85,6 +87,40 @@ header{
     line-height:200%;
 }
 
+/* contact style */
+
+.contactContent{
+    background:#fff;
+    width:920px;
+    padding:20px;
+    margin:135px auto 60px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777;
+    line-height:200%;
+}
+form{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+input{
+    width:100%;
+    height:25px;
+    border:1px solid #ccc;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777;
+}
+#message{
+    width:100%;
+    border:1px solid #ccc;
+}
+.button{
+    width:125px;
+    height:35px;
+    color:#fff;
+    background:#4aaaa5;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:14px;
+}
+
 /* footer styler */
 
 footer{
@@ -102,4 +138,5 @@ footer{
     margin:0px auto;
     text-align:center;
     color:#fff;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
