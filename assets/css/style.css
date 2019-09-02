@@ -1,15 +1,22 @@
-html {
-    height: 100%;
-    box-sizing: border-box;
-  }
-  
-body {
-    position: relative;
+html, body {
     margin: 0;
-    padding-bottom:55px;
-    min-height: 100%;
+    padding:0;
+    height: 100%;
     background:#eee;
     overflow:auto;
+}
+.container{
+    min-height:100%;
+    margin-bottom:-55px;
+    clear:both;
+}
+.clearfix{
+    overflow:auto;
+}
+.clearfix::after{
+    content:" ";
+    clear:both;
+    display:block;
 }
 /* header style */
 header{
@@ -60,7 +67,7 @@ header{
     background:#fff;
     width:920px;
     padding:20px;
-    margin:135px auto 60px;
+    margin:135px auto;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color:#777;
     line-height:200%;
@@ -87,7 +94,7 @@ header{
     background:#fff;
     width:920px;
     padding:20px;
-    margin:135px auto 60px;
+    margin:135px auto;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color:#777;
     line-height:200%;
@@ -104,11 +111,7 @@ header{
 .buttonContainer{
     width:100%;
 }
-.clearfix::after{
-    content:' ';
-    clear:both;
-    display:block;
-}
+
 .buttonTitle{
     position:absolute;
     bottom:10px;
@@ -172,7 +175,7 @@ header{
     background:#fff;
     width:920px;
     padding:20px;
-    margin:135px auto 60px;
+    margin:135px auto;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color:#777;
     line-height:200%;
@@ -203,13 +206,12 @@ input{
 /* footer styler */
 
 footer{
-    position:absolute;
     padding:20px 0px;
     background:#666;
     width:100%;
     height:55px;
+    margin-top:-103px;
     bottom:0px;
-    left:0;
     border-top:8px solid #4aaaa5;
 }
 
